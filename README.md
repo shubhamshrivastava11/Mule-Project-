@@ -3,11 +3,11 @@ Streamlining Bidirectional DATA Synchronization with Salesforce and Database
 ![Image](https://github.com/users/shubhamshrivastava11/projects/3/assets/128193947/7f724318-c6d5-4e19-bc4d-37a98c06fd34)
 
 
-Abstract
+# Abstract
 
 The goal of this project is to create a bidirectional synchronization system that will make it easier for Salesforce and a relational database system—such as MySQL—to exchange account data. The JDBC (Java Database Connectivity) protocol is utilized by the system to create an effective and smooth communication channel between these different data repositories. Define mapping rules, set criteria for synchronization event triggering, and configure data fields for synchronization are some of the key features (Organization, 2019).The system offers flexibility in data synchronization procedures by supporting Salesforce outbound messaging as well as polling mechanisms. To improve data selection efficiency and guarantee that only current and pertinent data is transferred between Salesforce and the database system, it also uses watermarking techniques. Organizations can achieve a high degree of configurability in managing their data integration processes by utilizing this bidirectional synchronization system, contributing to improved interoperability and data consistency between Salesforce and relational databases. The use of the JDBC protocol ensures communication infrastructure compatibility and reliability, making the synchronization system a strong solution for maintaining coherent and up-to-date account data across platforms. (Organization, 2019)
 
-Problem Description
+# Problem Description
 
 In today's business environment, organizations frequently rely on a variety of software systems to manage and utilize critical data. The challenge is ensuring that these systems exchange information bi-directionally in a seamless manner, especially when dealing with large datasets. In the absence of a strong bidirectional synchronization system, inefficiencies, data discrepancies, and hampered decision-making processes can occur. This project addresses the following serious issues:
 
@@ -30,7 +30,7 @@ The challenge lies in utilizing MuleSoft's Anypoint Platform and the JDBC protoc
 	Making Certain Scalability and Dependability:
 Problem: Ensuring the bidirectional synchronization system's scalability and dependability becomes critical as data volume grows. The challenge lies in designing the system to efficiently manage large datasets, maintain synchronization speed, and guarantee reliability even in the face of varying workloads. 
 
-System Capabilities
+# System Capabilities
 
 The bidirectional synchronization system has a few features to meet the needs and overcome the obstacles. It was created to enable smooth data interchange between Salesforce and a MySQL database using JDBC (Organization, 2019).The following are some of the system's primary features:
 
@@ -68,7 +68,7 @@ Benefits: Supports data volume expansion while preserving synchronization speed 
 
 Through the combination of these features, the bidirectional synchronization system provides a thorough resolution to the issues surrounding data sharing between Salesforce and MySQL, improving the overall effectiveness of data management within the organization. 
 
-Business Benefits 
+# Business Benefits 
 
 	Enhanced Data Precision – Consistent and current data is maintained in both Salesforce and MySQL because of the bidirectional synchronization technology. This increases the precision of the decision-making processes' precision and lowers the possibility of mistakes brought on by inaccurate or contradictory information.
 	Increased Performance Efficiency – The synchronization process is streamlined by the triggers, mapping rules, and customizable configuration choices. Because organizations may customize the system to match their unique data synchronization needs without transferring extraneous data, this leads to greater operational efficiency.
@@ -76,7 +76,7 @@ Business Benefits
 	Interoperability with Mulesoft – Interoperability is improved by integration with MuleSoft's Anypoint Platform. Businesses may make use of MuleSoft's middleware to enable seamless communication, which will enable efficient data flow between MySQL and Salesforce. (Organization, 2019)
 	Improved decision-making – Business Benefit: Decision-makers can rely on the integrity of information since precise and timely data is available in both Salesforce and MySQL. This helps the organization accomplish its strategic goals by enhancing the decision-making processes.
 
-Project Deliverables  
+# Project Deliverables  
 
 	Synchronization Template: Provide a customizable template that allows users to configure data fields, mapping rules, and synchronization triggers between Salesforce and the database. (Organization, 2019)
 	Support for Polling and Outbound Messaging: Implement synchronization mechanisms such as polling and Salesforce outbound messaging, giving users flexibility in how they trigger synchronization. (Organization, 2019)
@@ -85,7 +85,7 @@ Project Deliverables
 	Online Bidirectional Sync: Create a system that allows users to specify filtering criteria for bidirectional synchronization of accounts between Salesforce and the database. (Organization, 2019)
 	Email Notification: Notifying using mail through SMTP connector in migration workflow.
 
-Feasibility Analysis
+# Feasibility Analysis
 
 	Technical feasibility:
 Compatibility: The proposed approach for synchronizing Salesforce and MySQL using JDBC is theoretically workable. JDBC is a Java-based technology that is extensively supported by both Salesforce and MySQL. The system's design is scalable to support a rising volume of data and synchronization complexity.
@@ -97,7 +97,7 @@ Workflow integration: Ascertain that the technology is compatible with existing 
 	Regulatory and Legal Feasibility:
 To efficiently handle several records at once, this template uses batch processing and watermarking to choose just the most current things that are synchronized. To facilitate testing this template, a schema for a database table is provided.
 
-Solution Evaluation
+# Solution Evaluation
 
 	Efficiency – 
 -	Enhanced Indexing and Queries: response time – 0.0014 seconds for MySQL and Salesforce databases. 
@@ -136,7 +136,7 @@ For this prototype workflow- 1 million records can be migrated in less than 10 m
 -	Authorization: Apply fine-grained access restrictions, specifying who can read, write, and edit data in MySQL and Salesforce. Setting the proper permissions for various user roles is part of this.
 -	Database Security: To fix security flaws, patch and upgrade the MySQL databases on a regular basis. Set up the database server in accordance with recommended practices for security.
 
-Appendixes:
+# Appendixes:
 
 MySQL Database on PHP Admin (XAMPP Installers and Downloads for Apache Friends , n.d.)
 
@@ -188,7 +188,7 @@ http://localhost:8081/test      (Postman API Platform, n.d.)
 
 
 
-References
+# References
 	Postman API Platform. (n.d.). https://www.postman.com/ 
 	XAMPP Installers and Downloads for Apache Friends. (n.d.). https://www.apachefriends.org/
 	Mulesoft Organization. (2019, July 12). Salesforce and Database Account Bidirectional Sync. Mulesoft. https://www.mulesoft.com/exchange/org.mule.templates/template-sfdc2db-account-bidirectional-sync/ 
